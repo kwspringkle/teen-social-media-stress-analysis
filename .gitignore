@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data lớn (không commit smote vì nặng ~570KB, tuỳ nhóm)
+# data/processed/smote_data.csv
+
+# Models (file binary lớn)
+models/**/*.pkl
+models/**/*.pth
+models/**/*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Claude
+.claude/
