@@ -1,0 +1,24 @@
+{
+  "deploy_model": "Random Forest",
+  "cv_best_model": "Dummy (mean)",
+  "n_samples": 1200,
+  "n_features": 16,
+  "features": [
+    "age",
+    "gender",
+    "daily_social_media_hours",
+    "sleep_hours",
+    "screen_time_before_sleep",
+    "academic_performance",
+    "physical_activity",
+    "social_low",
+    "social_med",
+    "plat_Instagram",
+    "plat_TikTok",
+    "plat_Both",
+    "sm_sleep_ratio",
+    "screen_sleep_ratio",
+    "heavy_sm_user",
+    "low_sleep"
+  ]
+}
