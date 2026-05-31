@@ -1,0 +1,71 @@
+{
+  "model_name": "FTTransformer|Weighted BCE",
+  "feature_cols": [
+    "age",
+    "gender",
+    "daily_social_media_hours",
+    "sleep_hours",
+    "screen_time_before_sleep",
+    "academic_performance",
+    "physical_activity",
+    "social_interaction_level",
+    "stress_level",
+    "anxiety_level",
+    "platform_Both",
+    "platform_Instagram",
+    "platform_Other",
+    "platform_TikTok",
+    "sm_sleep_ratio",
+    "screen_sleep_ratio",
+    "heavy_sm_user",
+    "low_sleep"
+  ],
+  "threshold": 0.83,
+  "pos_weight": 5.009280742459397,
+  "focal_alpha": 0.8335907335907335,
+  "input_dim": 18,
+  "categorical_cols": [
+    "gender",
+    "platform_Both",
+    "platform_Instagram",
+    "platform_Other",
+    "platform_TikTok",
+    "heavy_sm_user",
+    "low_sleep"
+  ],
+  "continuous_cols": [
+    "age",
+    "daily_social_media_hours",
+    "sleep_hours",
+    "screen_time_before_sleep",
+    "academic_performance",
+    "physical_activity",
+    "social_interaction_level",
+    "stress_level",
+    "anxiety_level",
+    "sm_sleep_ratio",
+    "screen_sleep_ratio"
+  ],
+  "categorical_idx": [
+    1,
+    10,
+    11,
+    12,
+    13,
+    16,
+    17
+  ],
+  "continuous_idx": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    14,
+    15
+  ]
+}
