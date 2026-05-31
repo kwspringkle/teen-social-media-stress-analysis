@@ -1,0 +1,5 @@
+cluster_id,cluster_name,n,stress_mean,sm_hours,sleep_hours,screen_before_sleep,high_stress_pct
+0,Dùng MXH nhẹ,307,5.577,4.457,6.864,1.552,0.322
+1,Lướt đêm / ít ngủ,308,5.312,4.524,6.794,1.548,0.273
+2,Dùng MXH nặng,252,5.381,4.706,5.088,2.488,0.294
+3,Người dùng cân bằng,333,5.498,4.494,6.779,1.526,0.291

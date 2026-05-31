@@ -1,0 +1,4 @@
+platform_usage,n,stress_mean,stress_std,sm_hours_mean,sleep_mean,anova_f,anova_p
+Both,391,5.5499,2.9443,4.5184,6.4629,0.9004,0.4067
+Instagram,411,5.4988,2.8588,4.5594,6.4397,0.9004,0.4067
+TikTok,398,5.2889,2.9091,4.5312,6.4462,0.9004,0.4067

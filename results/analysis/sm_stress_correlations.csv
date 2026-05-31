@@ -1,0 +1,7 @@
+feature,pearson_r,p_value
+daily_social_media_hours,0.0307,0.287989
+sleep_hours,-0.011,0.703985
+screen_time_before_sleep,-0.0086,0.764693
+sm_sleep_ratio,0.023,0.425532
+screen_sleep_ratio,0.0072,0.802902
+heavy_sm_user (>=5h/day),0.0519,0.072213
