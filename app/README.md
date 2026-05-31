@@ -1,18 +1,15 @@
-# app/
+# Streamlit App
 
-Thư mục này chứa phần ứng dụng để trình bày kết quả của dự án cho người dùng cuối, thường là dashboard hoặc Streamlit app.
+Ứng dụng demo cho dự án teen mental health:
 
-## Mục đích
+- Nhập thông tin người dùng.
+- Chọn model ML/DL để dự đoán nguy cơ depression pattern.
+- Phân cụm hành vi theo nhiều góc nhìn: usage intensity, lifestyle health, social behavior, stress pattern.
+- Hiển thị biểu đồ cluster từng view và đánh dấu vị trí của user hiện tại.
 
-- Hiển thị dữ liệu đầu vào và các chỉ số chính.
-- Cho phép thử dự đoán trên mẫu mới.
-- Trình bày biểu đồ, so sánh mô hình và phần giải thích kết quả.
+## Run
 
-## Nội dung dự kiến
-
-- `streamlit_app.py`: điểm vào chính của ứng dụng.
-- `assets/`: hình ảnh, CSS, icon hoặc file tĩnh khác.
-
-## Lưu ý
-
-Chỉ nên đưa vào đây các file phục vụ trình bày hoặc demo. Logic xử lý dữ liệu và huấn luyện nên để trong `src/` hoặc notebook.
+```bash
+pip install -r requirements.txt
+streamlit run app/streamlit_app.py
+```
