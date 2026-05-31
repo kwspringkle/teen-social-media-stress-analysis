@@ -1,5 +1,5 @@
 {
-  "model_name": "FTTransformer|Weighted BCE",
+  "model_name": "FTTransformer|Focal Loss",
   "feature_cols": [
     "age",
     "gender",
@@ -20,7 +20,7 @@
     "heavy_sm_user",
     "low_sleep"
   ],
-  "threshold": 0.83,
+  "threshold": 0.615,
   "pos_weight": 5.009280742459397,
   "focal_alpha": 0.8335907335907335,
   "input_dim": 18,

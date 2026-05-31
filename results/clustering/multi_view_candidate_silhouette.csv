@@ -1,0 +1,13 @@
+view,display_name,method,k,k_reason,train_silhouette,val_silhouette,test_silhouette
+lifestyle_health,Lifestyle Health,PCA2+KMeans,2,Lifestyle separates most clearly into healthy vs risk profiles in this dataset.,0.3879317571379777,0.3925377951322005,0.38073755279898636
+lifestyle_health,Lifestyle Health,PCA3+KMeans,2,Lifestyle separates most clearly into healthy vs risk profiles in this dataset.,0.29659232735991453,0.30122963748606785,0.2894366940767629
+lifestyle_health,Lifestyle Health,KMeans,2,Lifestyle separates most clearly into healthy vs risk profiles in this dataset.,0.2492856183963889,0.25129744698796197,0.24226537434054793
+social_behavior,Social Behavior,PCA2+KMeans,3,"Social behavior naturally maps to isolated, moderate, and active groups.",0.3995616299877799,0.3861236032028103,0.39788653502926463
+social_behavior,Social Behavior,KMeans,3,"Social behavior naturally maps to isolated, moderate, and active groups.",0.26691471854530785,0.25080069169677527,0.26856814041936033
+social_behavior,Social Behavior,PCA3+KMeans,3,"Social behavior naturally maps to isolated, moderate, and active groups.",0.2669147185454188,0.2508006916966143,0.2685681404198935
+stress_pattern,Stress Pattern,PCA2+KMeans,2,Stress/anxiety split is strongest and clearest as low vs high stress.,0.40700226688717844,0.4040529702827236,0.40787009803862573
+stress_pattern,Stress Pattern,PCA3+KMeans,2,Stress/anxiety split is strongest and clearest as low vs high stress.,0.35731581044744337,0.3571706825423514,0.3544677912920315
+stress_pattern,Stress Pattern,KMeans,2,Stress/anxiety split is strongest and clearest as low vs high stress.,0.3154616466609191,0.3108435867237938,0.31153462699695883
+usage_intensity,Usage Intensity,PCA2+KMeans,3,"Usage intensity has three interpretable levels: light/rested, moderate, and heavy/risky use.",0.3637552053023837,0.37290655980855036,0.3748270335898865
+usage_intensity,Usage Intensity,KMeans,3,"Usage intensity has three interpretable levels: light/rested, moderate, and heavy/risky use.",0.29696925055479795,0.30282451250294,0.30008155223030586
+usage_intensity,Usage Intensity,PCA3+KMeans,3,"Usage intensity has three interpretable levels: light/rested, moderate, and heavy/risky use.",0.29696925055475487,0.30282451250294,0.30008155223030586
