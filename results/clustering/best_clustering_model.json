@@ -1,0 +1,11 @@
+{
+  "best_candidate": "KMeans|k=3",
+  "best_method": "KMeans",
+  "best_k": 3,
+  "selection_metric": "lowest average validation rank across silhouette, Davies-Bouldin, Calinski-Harabasz; k constrained to 3..8",
+  "test_metrics": {
+    "test_silhouette": 0.15762123431566435,
+    "test_davies_bouldin": 1.9779966481156015,
+    "test_calinski_harabasz": 118.8144983970463
+  }
+}

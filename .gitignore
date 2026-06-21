@@ -13,10 +13,10 @@ venv/
 # Data lớn (không commit smote vì nặng ~570KB, tuỳ nhóm)
 # data/processed/smote_data.csv
 
-# Models (file binary lớn)
-models/**/*.pkl
-models/**/*.pth
-models/**/*.zip
+# # Models (file binary lớn)
+# models/**/*.pkl
+# models/**/*.pth
+# models/**/*.zip
 
 # OS
 .DS_Store

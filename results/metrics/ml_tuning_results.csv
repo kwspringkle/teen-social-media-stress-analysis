@@ -1,0 +1,10 @@
+model,imbalance_method,candidate_key,best_cv_f1,best_params
+XGBoost,Class Weight,XGBoost|Class Weight,0.7966959672653136,"{'gamma': 0.25, 'learning_rate': 0.03, 'max_depth': 4, 'min_child_weight': 4, 'n_estimators': 400}"
+RandomForest,Class Weight,RandomForest|Class Weight,0.7914376497132258,"{'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 6, 'n_estimators': 500}"
+RandomForest,SMOTE,RandomForest|SMOTE,0.7872786675405481,"{'model__max_depth': 10, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 10, 'model__n_estimators': 500}"
+XGBoost,SMOTE,XGBoost|SMOTE,0.7805309672424346,"{'model__gamma': 0.1, 'model__learning_rate': 0.03, 'model__max_depth': 3, 'model__min_child_weight': 6, 'model__n_estimators': 400}"
+DecisionTree,Class Weight,DecisionTree|Class Weight,0.7756847029297183,"{'max_depth': 5, 'min_samples_leaf': 15, 'min_samples_split': 40}"
+DecisionTree,SMOTE,DecisionTree|SMOTE,0.7712843565271237,"{'model__max_depth': 7, 'model__min_samples_leaf': 8, 'model__min_samples_split': 20}"
+DecisionTree,Baseline,DecisionTree|Baseline,0.762803758807341,"{'max_depth': 5, 'min_samples_leaf': 15, 'min_samples_split': 20}"
+XGBoost,Baseline,XGBoost|Baseline,0.7590550919583178,"{'gamma': 0.1, 'learning_rate': 0.03, 'max_depth': 3, 'min_child_weight': 6, 'n_estimators': 400}"
+RandomForest,Baseline,RandomForest|Baseline,0.7495922055647577,"{'max_depth': 8, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'n_estimators': 500}"
